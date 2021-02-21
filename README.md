@@ -28,15 +28,15 @@ The purpose of this project is to create a binary classifier that is capable of 
 
 - Were you able to achieve the target model performance?
 
- ![Initial Model accuracy](https://github.com/sydney-chen95/Neural-Network-Charity-Analysis/blob/main/Images/Initial%20Model%20accuracy.png?raw=true)
+    ![Initial Model accuracy](https://github.com/sydney-chen95/Neural-Network-Charity-Analysis/blob/main/Images/Initial%20Model%20accuracy.png?raw=true)
     
-   I was unable to achieve the target model performance. My model's accuracy was only 72.56%.
+    I was unable to achieve the target model performance. My model's accuracy was only 72.56%.
 
 - What steps did you take to try and increase model performance?
 
- ![Optimized Model accuracy](https://github.com/sydney-chen95/Neural-Network-Charity-Analysis/blob/main/Images/Optimized%20Model%20accuracy.png?raw=true)
+    ![Optimized Model accuracy](https://github.com/sydney-chen95/Neural-Network-Charity-Analysis/blob/main/Images/Optimized%20Model%20accuracy.png?raw=true)
 
-   My attempt at optimizing the model's performance was to remove AFFILIATION column from the dataset, increased the number of values for each bin, and adding additional hidden layer to the model. However, this did not increase mdoel performance at all. Instead, this new model's accuracy decreased to 65.55%.
+    My attempt at optimizing the model's performance was to remove AFFILIATION column from the dataset, increased the number of values for each bin, and adding additional hidden layer to the model. However, this did not increase mdoel performance at all. Instead, this new model's accuracy decreased to 65.55%.
 
 ## Summary: 
 
