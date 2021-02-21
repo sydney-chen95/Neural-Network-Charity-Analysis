@@ -28,17 +28,18 @@ The purpose of this project is to create a binary classifier that is capable of 
 
 - Were you able to achieve the target model performance?
 
-![Initial Model accuracy](https://github.com/sydney-chen95/Neural-Network-Charity-Analysis/blob/main/Images/Initial%20Model%20accuracy.png?raw=true)
+ ![Initial Model accuracy](https://github.com/sydney-chen95/Neural-Network-Charity-Analysis/blob/main/Images/Initial%20Model%20accuracy.png?raw=true)
     
-    I was unable to achieve the target model performance. My model's accuracy was only 72.56%.
+   I was unable to achieve the target model performance. My model's accuracy was only 72.56%.
 
 - What steps did you take to try and increase model performance?
 
-![Optimized Model accuracy](https://github.com/sydney-chen95/Neural-Network-Charity-Analysis/blob/main/Images/Optimized%20Model%20accuracy.png?raw=true)
+ ![Optimized Model accuracy](https://github.com/sydney-chen95/Neural-Network-Charity-Analysis/blob/main/Images/Optimized%20Model%20accuracy.png?raw=true)
 
-    My attempt at optimizing the model's performance was to remove AFFILIATION column from the dataset, increased the number of values for each bin, and adding additional hidden layer to the model. However, this did not increase mdoel performance at all. Instead, this new model's accuracy decreased to 65.55%.
+   My attempt at optimizing the model's performance was to remove AFFILIATION column from the dataset, increased the number of values for each bin, and adding additional hidden layer to the model. However, this did not increase mdoel performance at all. Instead, this new model's accuracy decreased to 65.55%.
 
-## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation
+## Summary: 
 
-    The goal of this project was to create a model to predict the successfulness of candidates who will receive a donation from Alphabet Soup Charity. We used deep learning neural network models to estimate the ability of the models created, trained and defined using a dataset of known successful companies that have received donations. The models were aimed to have at least a 75% accuracy and inorder to increase its performance, the model parameters were modified by removing noisy variables, changing bin values and increasing hidden layers. However, this did not increase the model's performance and instead dropped from an accuracy score of 72.56% to 65.55%. 
-    My recommendation for a different model would be Random Forest Classifiers. This ensemble learning method for classification will construct multiple decision trees to predict accuracy and control over-fitting. 
+   The goal of this project was to create a model to predict the successfulness of candidates who will receive a donation from Alphabet Soup Charity. We used deep learning neural network models to estimate the ability of the models created, trained and defined using a dataset of known successful companies that have received donations. The models were aimed to have at least a 75% accuracy and inorder to increase its performance, the model parameters were modified by removing noisy variables, changing bin values and increasing hidden layers. However, this did not increase the model's performance and instead dropped from an accuracy score of 72.56% to 65.55%. 
+    
+   My recommendation for a different model would be Random Forest Classifiers. This ensemble learning method for classification will construct multiple decision trees to predict accuracy and control over-fitting. 
